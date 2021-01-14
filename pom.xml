@@ -11,6 +11,7 @@
     <!--todo 解释 modules 标签的作用-->
     <modules>
         <module>hello-spring5</module>
+        <module>external-properties</module>
     </modules>
 
     <name>spring5-demo</name>
