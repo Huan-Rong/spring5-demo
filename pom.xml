@@ -15,6 +15,7 @@
         <module>autowire-in-xml</module>
         <module>enable-annotation-using-xml</module>
         <module>using-annotation-only</module>
+        <module>advance-in-component-scan</module>
     </modules>
 
     <name>spring5-demo</name>
