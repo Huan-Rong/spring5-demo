@@ -16,6 +16,7 @@
         <module>enable-annotation-using-xml</module>
         <module>using-annotation-only</module>
         <module>advance-in-component-scan</module>
+        <module>bean-scope</module>
     </modules>
 
     <name>spring5-demo</name>
