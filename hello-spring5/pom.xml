@@ -16,7 +16,7 @@
         <artifactId>spring5-demo</artifactId>
         <version>1.0-SNAPSHOT</version>
         <!--todo 解释 relativePath 标签的作用-->
-        <relativePath/>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <dependencies>
