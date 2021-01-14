@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="user" class="site.bulibucai.bean.User">
+        <property name="name" value="lna"/>
+    </bean>
+
+    <!--todo 解释 autowire 属性的作用-->
+    <bean id="bankAccount" class="site.bulibucai.bean.Account" autowire="byType">
+        <property name="name" value="Bank Account"/>
+    </bean>
+    <bean id="alibabaAccount" class="site.bulibucai.bean.Account" autowire="byName">
+        <property name="name" value="Alibaba Account"/>
+    </bean>
+
+</beans>
