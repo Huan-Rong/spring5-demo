@@ -13,6 +13,7 @@
         <module>hello-spring5</module>
         <module>external-properties</module>
         <module>autowire-in-xml</module>
+        <module>enable-annotation-using-xml</module>
     </modules>
 
     <name>spring5-demo</name>
